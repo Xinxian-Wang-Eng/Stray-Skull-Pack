@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+
+  "header": {
+    "name": "Auto Armor Swap",
+    "description": "Automatically swaps Elytra to a chestplate when switching to a mace while gliding",
+    "uuid": "fe9779d2-ef24-4f0b-b549-2690746063b0",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 20]
+  },
+
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b79524bc-c56b-4182-a47e-98a9611b4785",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "9de01e7c-0593-4188-9a5c-61417f09e2a5",
+      "version": [1, 0, 0]
+    }
+  ],
+
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    }
+  ]
+}
